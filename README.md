@@ -1,113 +1,78 @@
 # 📊 Online Retail Performance Dashboard (2011)
 📸 Dashboard Preview
 <img width="1222" height="802" alt="image" src="https://github.com/user-attachments/assets/2c143eab-fa02-4a56-98b7-c7c2c9e5c79b" />
-📌 Project Overview
 
-This project was created using the Online Retail dataset from 2011. The goal was to transform raw sales data into meaningful business insights by designing an interactive Power BI dashboard.
+---
 
-The dashboard focuses on revenue, customer performance, product demand, and international market analysis to support business decision-making.
+## 📌 Project Overview
 
-🎯 Business Objectives
+This project presents an interactive **Power BI dashboard** built using the **Online Retail (2011)** dataset.
 
-The dashboard answers the following questions:
+The dashboard was designed to answer key business questions raised by stakeholders by analyzing revenue trends, customer performance, international markets, and product demand.
 
-How has revenue changed throughout 2011?
-Which countries generated the highest revenue?
-Which customers contributed the most revenue?
-Which countries have the highest product demand?
-What business insights can help improve future performance?
+---
 
-📂 Dataset Information
+## 🎯 Business Questions
 
-Dataset Name: Online Retail Dataset (2011)
+- How did monthly revenue change throughout 2011?
+- Which international countries generated the highest revenue?
+- Who are the top revenue-generating customers?
+- Which countries show the highest product demand?
 
-The dataset contains information such as:
+---
 
-Invoice Number
-Customer ID
-Product Description
-Quantity
-Unit Price
-Invoice Date
-Country
+## 📊 Dashboard Features
 
-🧹 Data Preparation
+- 💰 Total Revenue KPI
+- 📦 Units Sold KPI
+- 👥 Active Customers KPI
+- 🌍 Global Reach KPI
+- 📈 Monthly Revenue Trend
+- 🌎 Top 10 Countries by Revenue & Quantity Sold
+- 🏆 Top 10 Customers by Revenue
+- 🗺️ Product Demand by Country
+- 🎛️ Interactive Country Slicer
 
-Before building the dashboard, the dataset was cleaned and transformed.
+---
 
-Data Preparation Steps
-Imported the dataset into Power BI.
-Checked the data for missing values.
-Created a new Revenue column using:
-Revenue = Quantity × Unit Price
-Filtered the data to include only the year 2011.
-Excluded the United Kingdom from the country comparison as required.
+## 🛠️ Tools & Technologies
 
-📊 Dashboard Features
-KPI Cards
-💰 Total Revenue
-📦 Units Sold
-👥 Active Customers
-🌍 Global Reach
+- Microsoft Power BI
+- Power Query
+- DAX
+- Microsoft Excel
 
-Visualizations
-📈 Monthly Revenue Trend
+---
 
-Shows monthly revenue throughout 2011 to identify seasonal sales patterns.
+## 📈 Key Insights
 
-🌎 Top Countries
+- Total Revenue: **€8.30M**
+- Units Sold: **5M**
+- Active Customers: **4K**
+- Global Reach: **37 Countries**
+- Revenue reached its highest value in **November 2011**.
+- Netherlands, EIRE and Germany were the top international markets.
+- A small group of customers contributed a significant share of total revenue.
 
-Compares the Top 10 countries based on:
+---
 
-Revenue
-Quantity Sold
-🏆 Top Customers
+## 📁 Repository Contents
 
-Displays the Top 10 customers who generated the highest revenue.
+- 📄 Online Retail Dashboard.pbix
+- 🖼️ dashboard-preview.png
+- 🎥 dashboard-demo.mp4
 
-🗺️ Product Demand Map
+---
 
-Shows global product demand based on quantity sold.
+## 👨‍💻 Author
 
-🎛️ Interactive Slicer
-
-Allows users to filter the dashboard by country.
-
-📈 Key Insights
-Total Revenue reached €8.30M.
-Around 5 million products were sold.
-Approximately 4,000 active customers purchased products.
-Business operations covered 37 countries.
-Revenue peaked during November 2011.
-Netherlands, EIRE, and Germany were the strongest international markets.
-
-🛠️ Tools Used
-Microsoft Power BI
-Power Query
-DAX
-Microsoft Excel
-
-📁 Repository Contents
-📂 Online Retail Dashboard.pbix
-📂 dashboard-preview.png
-📂 dashboard-demo.mp4
-📂 README.md
-
-🚀 Future Improvements
-
-In the future, this dashboard can be enhanced by:
-
-Adding Profit Analysis
-Customer Segmentation
-Sales Forecasting
-Product Category Analysis
-Time Intelligence KPIs
-
-👨‍💻 Author
-
-Smit Jitendra Tandel
+**Smit Jitendra Tandel**
 
 B.Tech Electrical & Computer Engineering (ECE)
 
-Interested in Power BI, Data Analytics, AI, and Business Intelligence.
+Power BI | Data Analytics | AI | Business Intelligence
+
+---
+
+⭐ If you found this project useful, feel free to explore the repository and share your feedback.
 
